@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.form_box {
+  height: 300px;
+  width: 500px;
+  background: radial-gradient(
+      97.61% 55.99% at 50.15% 44.01%,
+      rgba(22, 81, 123, 0.69) 0%,
+      #1e1a36 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_submit {
+  background: radial-gradient(
+    97.61% 55.99% at 50.15% 44.01%,
+    rgba(22, 81, 123, 0.69) 0%,
+    #1e1a36 100%
+  );
+}
+input {
+  background-color: #dfdada;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+p {
+  color: white;
+}
+.data_box {
+  background-color: cadetblue;
+}
+.data_box {
+  background-color: #e3cdcd;
+  border-radius: 10px;
+}
